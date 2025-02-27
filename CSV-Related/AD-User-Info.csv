@@ -1,0 +1,8 @@
+"SamAccountName","UserPrincipalName","MemberOf","Name"
+"chandler.bing","chandler.bing@npower.com","CN=Project-Manager,OU=Canada,OU=NP-Chat-App,DC=npower,DC=com","Chandler M. Bing"
+"ross.geller","ross.geller@npower.com","CN=Developer,OU=India,OU=NP-Chat-App,DC=npower,DC=com","Ross Geller"
+"phoebe.buffay","phoebe.buffay@npower.com","CN=Tester,OU=India,OU=NP-Chat-App,DC=npower,DC=com","Phoebe Buffay"
+"monica.geller","monica.geller@npower.com","CN=Team-Lead,OU=Canada,OU=NP-Chat-App,DC=npower,DC=com","Monica Geller"
+"joey.tribbiani","joey.tribbiani@npower.com","CN=SystemAdmin,OU=Philippines,OU=NP-Chat-App,DC=npower,DC=com","Joey F. Tribbiani"
+"rachel.greene","rachel.greene@npower.com","CN=Support,OU=Philippines,OU=NP-Chat-App,DC=npower,DC=com","Rachel K. Greene"
+"gunther","gunther@npower.com","CN=Sales,OU=South-Korea,OU=NP-Chat-App,DC=npower,DC=com","Gunther"
