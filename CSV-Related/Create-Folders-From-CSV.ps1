@@ -8,6 +8,7 @@ foreach($line in $csvFile){
 	$userName = $line.SamAccountName
 	$emailID = $line.UserPrincipalName
 
+	Write-Host "`n"
 	Write-Host "Name : " $fullName
 	Write-Host "UserName : " $userName
 	Write-Host "Email-ID : " $emailID
