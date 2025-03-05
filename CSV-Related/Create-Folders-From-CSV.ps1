@@ -25,5 +25,6 @@ foreach($line in $csvFile){
 	Write-Host "Country : " $country
 	Write-Host "App: " $appName "`n"
 	
+	# Create our Folder Structure
 	mkdir -Path "C:\User_Dirs\$appName\$country\$groupName\$userName"
 }
