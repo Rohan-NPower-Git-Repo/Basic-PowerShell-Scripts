@@ -1,16 +1,19 @@
-# Stop-Service sshd
+# Prompt the User for Service Name
+Write-Host "Enter Service Name to Check the Status:"
+$serviceName = Read-Host
 
-# Prompt user for service name
-Write-Host "Enter Service Name to Check Status: "
-$SERVICE = Read-Host 
-
-# Check if service is running
-$serviceStatus = Get-Service -Name $SERVICE -ErrorAction SilentlyContinue
+# Check if the Service is Running if it's not let's restart it
+$serviceStatus = Get-Service -Name $serviceName -ErrorAction SilentlyContinue
 
 if ($serviceStatus -and $serviceStatus.Status -eq 'Running') {
-    Write-Host "`n $SERVICE is running."
+	Write-Host "`n $serviceName is Running!"
 } else {
-    Write-Host "`n $SERVICE is not running. Restarting..."
-    Restart-Service -Name $SERVICE -Force
-    Get-Service -Name $SERVICE
+	Get-Service -Name $serviceName
+	Write-Host "`n $serviceName is NOT Running, let's restart it!"
+	Restart-Service -Name $serviceName -Force
+	Write-Host "`n"
+	Get-Service -Name $serviceName
 }
+
+#  Get-Service sshd
+#  Stop-Service sshd
