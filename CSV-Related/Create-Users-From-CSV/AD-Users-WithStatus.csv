@@ -1,5 +1,0 @@
-SamAccountName,UserPrincipalName,MemberOf,Name,Enabled
-jack.geller,jack.geller@npower.com,"CN=Developer,OU=India,OU=NP-Chat-App,DC=npower,DC=com",Jack Geller,TRUE
-janice,janice@npower.com,"CN=Team-Lead,OU=Canada,OU=NP-Chat-App,DC=npower,DC=com",Janice,TRUE
-mike.hannigan,mike.hannigan@npower.com,"CN=SystemAdmin,OU=Philippines,OU=NP-Chat-App,DC=npower,DC=com",Mike Hannigan,FALSE
-nora.bing,nora.bing@npower.com,"CN=Sales,OU=South-Korea,OU=NP-Chat-App,DC=npower,DC=com",Nora Bing,FALSE
