@@ -17,12 +17,15 @@ foreach ($combo in $combinations) {
 
 Write-Host "`n"
 Write-Host "Text-Color : Cyan | Background-Color : Black " -ForegroundColor "Cyan" -BackgroundColor "Black"
-Write-Host "Text-Color : Black | Background-Color : Blue " -ForegroundColor "White" -BackgroundColor "Black"
-Write-Host "Text-Color : DarkRed | Background-Color : DarkRed " -ForegroundColor "DarkRed" -BackgroundColor "Yellow"
+Write-Host "Text-Color : White | Background-Color : Black " -ForegroundColor "White" -BackgroundColor "Black"
+Write-Host "Text-Color : DarkRed | Background-Color : Yellow " -ForegroundColor "DarkRed" -BackgroundColor "Yellow"
 Write-Host "Text-Color : Black | Background-Color : DarkGray " -ForegroundColor "Black" -BackgroundColor "DarkGray"
 Write-Host "Text-Color : Black | Background-Color : Blue " -ForegroundColor "Black" -BackgroundColor "Blue"
 Write-Host "Text-Color : Magenta | Background-Color : White " -ForegroundColor "Magenta" -BackgroundColor "White"
 Write-Host "Text-Color : DarkBlue | Background-Color : White " -ForegroundColor "DarkBlue" -BackgroundColor "White"
+Write-Host "Text-Color : DarkBlue | Background-Color : Cyan " -ForegroundColor "DarkBlue" -BackgroundColor "Cyan"
+Write-Host "Text-Color : DarkBlue | Background-Color : Cyan " -ForegroundColor "DarkMagenta" -BackgroundColor "Cyan"
+Write-Host "Text-Color : DarkBlue | Background-Color : Cyan " -ForegroundColor "Black" -BackgroundColor "Cyan"
 Write-Host "Text-Color : Green | Background-Color : Magenta " -ForegroundColor "Green" -BackgroundColor "Magenta"
 
 
