@@ -6,8 +6,7 @@ $msgType = [char] $msgType
 	
 if( $msgType -eq 'Q' )
 {
-	Write-Host "GoodBye!"
-	break;
+	Write-Host "GoodBye!" -ForegroundColor Black -BackgroundColor Cyan
 }
 else
 {
